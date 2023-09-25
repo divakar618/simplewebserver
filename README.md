@@ -16,8 +16,25 @@ Testing the webserver
 
 ## PROGRAM:
 
+''' from http.server import HTTPServer,BaseHTTPRequestHandler
+
+content=''' <!doctype html>
+
+<title> My Web Server</title>
+
+# Top Five Web Application Development Frameworks
+
+## 1.Microsoft
+## 2.Apple 
+## 3.X
+##  4.tesla
+## 5.Amazon
+
+
 
 ## OUTPUT:
+
+![ou](https://github.com/divakar618/simplewebserver/assets/121932143/cda722f9-9482-43af-ae40-0a9c4fbba5aa)
 
 
 ## RESULT:
