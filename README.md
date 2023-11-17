@@ -15,25 +15,28 @@ Serving the HTML pages.
 Testing the webserver
 
 ## PROGRAM:
-
-'''
-from http.server import HTTPServer, BaseHTTPRequestHandler
-content = """
+```
 <!DOCTYPE html>
 <html>
 <head>
 <title>My webserver</title>
 </head>
-<body>
-<h1><u>Top 5 Revenue Generating Companies</u><h1>
-<ul>
-<li>Apple</li>
-<li>Amazon</li>
-<li>Microsoft</li>
-<li>Samsung</li>
-<li>Google</li>
+<body  bgcolor="lightblue">
+<h1>TOP 5 LARGEST SOFTWARE COMPANIES IN THE WORLD</h1>
+<br>
+<br>
+<h2>
+    <ol>
+        <li>GOOGLE</li>
+        <li>APPLE</li>
+        <li>AMAZON</li>
+        <li>TESLA</li>
+        <li>MICROSOFT</li>
+    </ol>
+</h2>
 </body>
 </html>
+
 """
 class myhandler(BaseHTTPRequestHandler):
     def do_GET(self):
@@ -47,14 +50,6 @@ httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
 httpd.serve_forever()
 ```
-
-# Top Five Web Application Development Frameworks
-
-## 1.Apple 
-## 2.Amaozon
-## 3.Microsoft
-## 4.Samsung 
-## 5.Google
 
 
 
